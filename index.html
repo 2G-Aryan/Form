@@ -8,6 +8,8 @@
       .element ul li {
         list-style: none;
         justify-content: end;
+        padding: 5px;
+        border-radius: 30%;
       }
 
       ul li:hover {
@@ -16,12 +18,30 @@
         cursor: pointer;
       }
 
+      .btn:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+      }
+
+      .btn2{
+        background-color: white;
+        color: black;
+      }
+
+
+      .btn2:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+      }
+
       body {
         background-image: url(pexels-felixmittermeier-956999.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        height: auto;
         color: white;
       }
 
@@ -49,10 +69,10 @@
       <nav style="display: flex">
         <div class="logo" style="width: 50%">
           <img
-            src="https://www.clipartmax.com/png/middle/85-850390_company-logos-without-names.png"
+            src="https://img.freepik.com/premium-psd/beautiful-glowing-gray-full-moon_1259581-2.jpg?semt=ais_hybrid"
             alt=""
-            height="50"
-            style="border-radius: 50%; margin-left: 10px"
+            height="70"
+            style="border-radius: 50%; margin-left: 30px; opacity: 0.7;"
           />
         </div>
         <div
@@ -61,7 +81,7 @@
             width: 50%;
             display: flex;
             justify-content: end;
-            margin-right: 95px;
+            margin-right: 115px;
           "
         >
           <ul
@@ -76,6 +96,7 @@
               width: 400px;
               align-items: center;
               justify-content: center;
+              border: 2px solid white;
             "
           >
             <li>Home</li>
@@ -96,13 +117,10 @@
         ">
       <div
         class="left"
-        style="
-          
+        style="          
           display: flex;
           flex-direction: column;
-          width: 50%;
-          
-         
+          width: 50%;          
           justify-content: center;
           align-items: center;
           background-color: #252020;
@@ -110,6 +128,8 @@
           height: 400px;
     width: 600px;
     padding: 25px;
+    border: 2px solid white;
+    border-radius: 20px;
         "
       >
         <h1>GLASSMORPHISM</h1>
@@ -125,7 +145,8 @@
           architecto quisquam saepe veritatis maxime minima iusto in optio, amet
           facere? Odit, dolorem nam saepe ipsum iste culpa magni deleniti?
         </p>
-        <button>Learn More</button>
+        <button class="btn" style="padding: 10px;
+    border-radius: 10px; border: 2px solid white;">Learn More</button>
         <div class="collection">
 <div class="name">A</div>
 <div class="name">R</div>
@@ -156,15 +177,18 @@
           height: 400px;
     width: 600px;
     padding: 25px;
+    border: 2px solid white;
+    border-radius: 20px;
         "
       >
-   <h3>Login</h3>
+   <h1 style="    margin-bottom: 73px;
+">Login</h1>
 
-   <input type="text" placeholder="Username" style="border-radius: 5px; border: 2px solid white;"> 
+   <div><input type="text" placeholder="Username" style="border-radius: 5px; border: 2px solid white;"> </div>
    <br>
    <input type="text" placeholder="Password" style="border-radius: 5px;">
 
-<button style="background-color: white; color: black; border-radius: 10px; padding: 10px; margin-top: 30px;">Login</button>
+<button class="btn2" style="border: 2px solid white; border-radius: 10px; padding: 10px; margin-top: 30px; width: 93px;">Login</button>
 
       </div>
     </div>
